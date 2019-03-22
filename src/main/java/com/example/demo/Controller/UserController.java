@@ -18,7 +18,7 @@ public class UserController {
 
     @GetMapping
     public String asd() {
-        return "hello";
+        return "hello jjjjj";
     }
 
     @PostMapping
