@@ -18,7 +18,7 @@ public class UserController {
 
     @GetMapping
     public String asd() {
-        return "hello jjjjj";//
+        return "hello jjjjj" + System.currentTimeMillis();//
     }
 
     @PostMapping
